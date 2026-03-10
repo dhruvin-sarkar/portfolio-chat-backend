@@ -14,6 +14,7 @@ const PORT = process.env.PORT || 4000;
 app.use(cors({
   origin: [
     "http://localhost:3000",
+    "http://localhost:5173",
     "https://dhruvin-sarkar-dev.vercel.app",
     "https://dhruvin-sarkar.dev",
     "https://www.dhruvin-sarkar.dev"
